@@ -23,7 +23,7 @@ pip install Topsis-Rohit-102203804
 
 ## Prerequisites
 - Python 3.6 or higher
-- Required Libraries: `pandas`, `numpy` , `pyexcel`
+- Required Libraries: `pandas`, `numpy`, `pyexcel`
 
 
 Install dependencies using:
