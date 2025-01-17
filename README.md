@@ -5,6 +5,14 @@ The TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) meth
 
 ---
 
+## PyPI Package
+This implementation is available as a Python package on [`https://pypi.org/project/Topsis-Rohit-102203804/`](https://pypi.org/project/Topsis-Rohit-102203804/). You can easily install it via `pip`:
+
+```bash
+pip install Topsis-Rohit-102203804
+```
+---
+
 ## Features
 - Custom **weights** and **impacts** for decision criteria.
 - Calculates **Topsis Score** and **Rank** for alternatives.
