@@ -32,7 +32,7 @@ def topsis(file_path, weights, impacts, output_file):
         if len(weights) != parameters.shape[1] or len(impacts) != parameters.shape[1]:
             raise ValueError("Number of weights and impacts must match the number of parameters.")
         
-        impacts = [1 if i.lower() == 'max' else -1 for i in impacts]
+        impacts = [1 if i.lower() == '+' else -1 for i in impacts]
         
         # 1: Normalize the parameters
         normalized = parameters / np.sqrt((parameters**2).sum())
