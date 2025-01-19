@@ -65,7 +65,7 @@ def topsis(file_path, weights, impacts, output_file):
 if __name__ == "__main__":
     if len(sys.argv) != 5:
         print("Usage: python <program.py> <InputDataFile> <Weights> <Impacts> <ResultFileName>")
-        print("Example: python 102203804.py 102203804-data.csv \"1,1,1,1,1\" \"+, +, -, +, -\" 102203804-result.csv")
+        print("Example: python 102203804.py 102203804-data.xlsx \"1,1,1,1,1\" \"+,+,-,+,-\" 102203804-result.csv")
     else:
         file_path = sys.argv[1]
         weights = list(map(float, sys.argv[2].split(',')))
