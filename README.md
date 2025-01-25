@@ -1,16 +1,8 @@
 # TOPSIS Algorithm Implementation
 
-## Overview
+## Program 1: Overview
 The TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) method is a multi-criteria decision-making approach. This Python implementation computes rankings for alternatives based on their proximity to ideal best and worst solutions.
 
----
-
-## PyPI Package
-This implementation is available as a Python package on [`https://pypi.org/project/Topsis-Rohit-102203804/`](https://pypi.org/project/Topsis-Rohit-102203804/). You can easily install it via `pip`:
-
-```bash
-pip install Topsis-Rohit-102203804
-```
 ---
 
 ## Features
@@ -50,7 +42,13 @@ python 102203804.py 102203804-data.xlsx "1,1,1,1,1" "+,+,-,+,+" 102203804-result
 ```
 
 ---
+## Program 2: PyPI Package
+This implementation is available as a Python package on [`https://pypi.org/project/Topsis-Rohit-102203804/`](https://pypi.org/project/Topsis-Rohit-102203804/). You can easily install it via `pip`:
 
+```bash
+pip install Topsis-Rohit-102203804
+```
+---
 ## Input Data Format
 1. A column with names of alternatives.
 2. Subsequent columns with numeric values for criteria.
