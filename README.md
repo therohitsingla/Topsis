@@ -3,17 +3,15 @@
 ## Program 1: Overview
 The TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) method is a multi-criteria decision-making approach. This Python implementation computes rankings for alternatives based on their proximity to ideal best and worst solutions.
 
----
-
-## Features
+### Features
 - Custom **weights** and **impacts** for decision criteria.
 - Calculates **Topsis Score** and **Rank** for alternatives.
 - Saves results to a specified **output file**.
 - Robust validation for data and inputs.
 
 ---
-
-## Prerequisites
+## How to Use
+### Prerequisites
 - Python 3.6 or higher
 - Required Libraries: `pandas`, `numpy`, `pyexcel`
 
@@ -23,9 +21,9 @@ Install dependencies using:
 pip install pandas numpy pyexcel
 ```
 
----
 
-## How to Use
+
+
 ### Command-Line Usage
 ```bash
 python <script_name.py> <InputDataFile> <Weights> <Impacts> <ResultFileName>
@@ -48,7 +46,6 @@ This implementation is available as a Python package on [`https://pypi.org/proje
 ```bash
 pip install Topsis-Rohit-102203804
 ```
----
 ## Input Data Format
 1. A column with names of alternatives.
 2. Subsequent columns with numeric values for criteria.
@@ -59,7 +56,6 @@ Example:
 | A1          | 250        | 16         | 12         |
 | A2          | 200        | 18         | 11         |
 
----
 
 ## Output
 The output file includes:
@@ -79,3 +75,5 @@ The script validates:
 be same.
 - Impacts must be either +ve or -ve.
 - Impacts and weights must be separated by ‘,’ (comma).
+
+---
